@@ -21,7 +21,7 @@ class Ball(pygame.sprite.Sprite): #the class for the ball
 			self.ydir = self.ydir * -1
 		self.rect.center = (self.x, self.y)
 
-pygame.init()
+pygame.init()#initialize pygame
 fps = pygame.time.Clock() #the refresh rate
 window = pygame.display.set_mode((500, 500)) #make the pygame window
 # make the seprate balls
