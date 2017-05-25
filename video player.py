@@ -1,17 +1,18 @@
-import pygame
-from time import sleep
+import pygame#import pygame
+from time import sleep#import the time module
 
-pygame.init()
-screen = pygame.display.set_mode((700, 400))
-movie = pygame.movie.Movie("russian hacker.mpg")
-pygame.mixer.quit()
-movie.play()
+pygame.init()#start pygame
+screen = pygame.display.set_mode((700, 400))#make the window
+movie = pygame.movie.Movie("russian hacker.mpg")#setting the file to play
+pygame.mixer.quit()#stops the mixer from playing random audio
+movie.play()#play the movie
 
-while True:
-	if not(movie.get_busy()):
+while True:#forever loop
+	if not(movie.get_busy()):#if the movie is'nt playing
 		print("rewind")
-		movie.rewind()
-		movie.play()
+		movie.rewind()#rewind it
+		movie.play()#play it after rewinding
+		#if the cross button is clicked close the program so you dont hve to control-C 
 	if pygame.QUIT in [e.type for e in pygame.event.get()]:
 		break
 	
