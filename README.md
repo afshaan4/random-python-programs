@@ -1,3 +1,4 @@
-# just-another-python-project
+# these are all my python my small python projects
 
-this program draws three ball bouncing off th sids of the screeen
+here I upload small practice projects
+and stuff
