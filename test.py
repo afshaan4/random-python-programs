@@ -1,4 +1,4 @@
-import pygame 
+import pygame #import pygame
 
 class Ball(pygame.sprite.Sprite): #the class for the ball
 
