@@ -1,4 +1,4 @@
-# these are all my python my small python projects
+# these are all my small python projects
 
-here I upload small practice projects
-and stuff
+these are random practice projects that I do
+
