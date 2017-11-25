@@ -16,4 +16,8 @@ todo list.py - a todo list program
 
 video player.py -  a pygame video player 
 
+client.py - a barebones web client
+
+host.py - a barebones web server
+
 
