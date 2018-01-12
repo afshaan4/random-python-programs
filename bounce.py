@@ -3,7 +3,7 @@ import pygame #import pygame
 class Ball(pygame.sprite.Sprite): #the class for the ball
 
 	def __init__(self, x, y, xdir, ydir, speed): #create the ball
-		pygame.sprite.Sprite.__init__(self) 
+		pygame.sprite.Sprite.__init__(self)
 		self.image = pygame.Surface([20, 20])
 		self.image.fill(pygame.Color(0, 0, 0))
 		pygame.draw.circle(self.image, pygame.Color(255, 0, 0), (10, 10), 10, 0) #draw the circle
@@ -28,16 +28,19 @@ window = pygame.display.set_mode((500, 500)) #make the pygame window
 ball = Ball(100, 250, 1, 1, 5)
 ball2 = Ball(400, 10, -1, -1, 8)
 ball3 = Ball(90, 80, -1, 1, 7)
+ball4 = Ball( 60, 10, 1, -1, 4)
 
 while True: # it goes on forever
 	#update the balls
 	ball.update()
 	ball2.update()
 	ball3.update()
+	ball4.update()
 	#draw the window and the balls
 	window.fill(pygame.Color(0, 0, 0))
 	window.blit(ball.image, ball.rect)
 	window.blit(ball2.image, ball2.rect)
 	window.blit(ball3.image, ball3.rect)
+	window.blit(ball4.image, ball4.rect)
 	pygame.display.update()
-	fps.tick(30)
+	fps.tick(60)
