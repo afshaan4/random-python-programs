@@ -1,4 +1,4 @@
-# tha addition function
+# the addition function
 def add(a, b):
 	print(a + b)
 

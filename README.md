@@ -1,4 +1,14 @@
 # A collection of simple python projects
+These are just random small programs I wrote
+
+# Installation, Running
+
+* Install python3
+* clone this repository `git clone https://github.com/afshaan4/random-python-programs.git`
+
+* To run the programs type `python3 filename.py` in a terminal
+
+## What each program is
 
 audio player.py - a program that plays a target audio file
 
@@ -14,7 +24,7 @@ bounce.py - a pygame program that animates balls bouncing around the screen
 
 todo list.py - a todo list program
 
-video player.py -  a pygame video player 
+video player.py -  a pygame video player(plays only mpegs)
 
 client.py - a barebones web client
 
