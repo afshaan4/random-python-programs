@@ -30,4 +30,6 @@ client.py - a barebones web client
 
 host.py - a barebones web server
 
+serial_reader.py - reads stuff from serial port and prints to screen (for use with an arduino)
+
 
