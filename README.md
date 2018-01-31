@@ -1,5 +1,5 @@
 # A collection of simple python projects
-These are just random small programs I wrote
+These are just random python programs I wrote
 
 # Installation, Running
 

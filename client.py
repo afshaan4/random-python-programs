@@ -7,6 +7,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # get local machine name
 host = "192.168.0.5"
 
+#ste the port
 port = 9999
 
 # connection to hostname on the port.
