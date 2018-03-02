@@ -10,26 +10,26 @@ These are just random python programs I wrote
 
 ## What each program is
 
-audio_player.py - a program that plays a given audion file.
+audio_player.py   -  a program that plays a given audion file.
 
-calculator.py - a command line calculator.
+calculator.py     -  a command line calculator.
 
-dataLogger.py - a datalogger that logs the time and a random number.
+dataLogger.py     -  a datalogger that logs the time and a random number.
 
-dice.py - simulates rolling dice.
+dice.py           -  simulates rolling dice.
 
-fileReader.py - a simple plaintext file reader.
+fileReader.py     -  a simple plaintext file reader.
 
-bounce.py - a pygame program that animates balls bouncing around.
+bounce.py         -  a pygame program that animates balls bouncing around.
 
-todolist.py - a todo list program.
+todolist.py       -  a todo list program.
 
-video_player.py -  a pygame video player(plays only mpegs).
+video_player.py   -  a pygame video player(plays only mpegs).
 
-client.py - a barebones web client.
+client.py         -  a barebones web client.
 
-host.py - a barebones web server.
+host.py           -  a barebones web server.
 
-serial_reader.py - reads stuff from serial port and prints to screen (for use with an arduino).
+serial_reader.py  -  reads stuff from serial port and prints to screen (for use with an arduino).
 
 
