@@ -1,4 +1,4 @@
-# client.py  
+# client.py
 import socket
 
 # create a socket object
@@ -17,7 +17,7 @@ s.connect((host, port))
 tm = s.recv(1024)
 
 cat = input("type a message > ")
-#send something
+# send something
 s.send(cat.encode('ascii'))
 
 s.close()

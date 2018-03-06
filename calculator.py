@@ -10,32 +10,31 @@ def subtract(a, b):
 def mult(a, b):
 	print(a * b)
 
-#the division function
+# the division function
 def div(a, b):
 	print(a / b)
 
 # the main function
 def menu():
-	choices = ['1', '2', '3', '4', '5']#the possible inputs
-	choice = '0'#initialize 'choice' as 0 to start
-	#the welcome message
+	choices = ['1', '2', '3', '4', '5']# the possible inputs
+	choice = '0'# initialize 'choice' as 0 to start
+	# the welcome message
 	print("Welcome to the calculator")
 	print(" ")
-	print("to do an addition type 1")
-	print("to do a subtraction type 2")
-	print("to do a multiplication type 3")
-	print("to do a division type 4")
-	print("to exit type 5")
-	# the main loop
+	print("1: addition")
+	print("2: subtraction")
+	print("3: multiplication")
+	print("4: subtraction")
+	print("5: exit")
+
 	while True:
 		# the User Interface
-		choice = input(">>> ")#the main prompt 
+		choice = input(">>> ")#the main prompt
 
 		if choice == '1':
 			a = int (input("enter a number > "))
 			b = int (input("enter the second number > "))
 			add(a, b)
-
 
 		elif choice == '2':
 			a = int (input("enter a number > "))
@@ -56,4 +55,4 @@ def menu():
 			exit()
 		choice = '0' # reset choice to zero
 
-menu()#start the program
+menu()
