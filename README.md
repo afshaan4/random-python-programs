@@ -3,9 +3,10 @@ These are just random python programs I wrote
 
 # Installation, Running
 
-* Make sure you have Python3 and Pygame *for python3* installed.
-* clone this repository `git clone https://github.com/afshaan4/random-python-programs.git`
-* To run the programs type `python3 filename.py` in a terminal
+* Make sure you have Python 3 installed.
+* Install pygame *for pyhton 3* `pip3 install pygame` .
+* clone this repository `git clone https://github.com/afshaan4/random-python-programs.git` .
+* To run the programs type `python3 filename.py` in a terminal.
 
 ## What each program is
 filename          |  what it is
